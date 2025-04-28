@@ -50,3 +50,24 @@ Aplikasi akan terbuka di browser pada alamat http://localhost:3000.
 ![alt text](image-5.png)
 - http://localhost:3000/essays untuk halaman "Esai".
 ![alt text](image-6.png)
+
+## Membuat Layout dan Navigasi
+
+1. Buat direktori src/components jika belum ada. 
+2. Buat file src/components/Layout.tsx 
+![alt text](image-10.png)
+3. Buat file src/components/Navbar.tsx
+![alt text](image-11.png)
+4. Buat file src/components/Footer.tsx
+![alt text](image-12.png)
+5. Update file app/layout.tsx untuk menggunakan layout
+![alt text](image-13.png)
+6. Update setiap halaman menambahkan metadata dengan generateMetadata
+![alt text](image-14.png)
+![alt text](image-19.png)
+Lakukan hal yang sama untuk halaman projects/page.tsx dan essays/page.tsx. 
+![alt text](image-15.png)
+![alt text](image-17.png)
+
+![alt text](image-16.png)
+![alt text](image-18.png)
