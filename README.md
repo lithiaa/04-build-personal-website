@@ -34,3 +34,19 @@ npm run dev
 Aplikasi akan terbuka di browser pada alamat http://localhost:3000.
 
 ![alt text](image.png)
+
+## 2. Membuat Halaman Website 
+
+1. Buat file app/page.tsx sebagai halaman "Tentang Saya": 
+![alt text](image-7.png)
+2. Buat file app/projects/page.tsx sebagai halaman "Proyek": 
+![alt text](image-8.png)
+3. Buat file app/essays/page.tsx sebagai halaman "Esai": 
+![alt text](image-9.png)
+4. Buka browser dan akses: 
+- http://localhost:3000/ untuk halaman "Tentang Saya". 
+![alt text](image-4.png)
+- http://localhost:3000/projects untuk halaman "Proyek". 
+![alt text](image-5.png)
+- http://localhost:3000/essays untuk halaman "Esai".
+![alt text](image-6.png)
