@@ -51,7 +51,7 @@ Aplikasi akan terbuka di browser pada alamat http://localhost:3000.
 - http://localhost:3000/essays untuk halaman "Esai".
 ![alt text](image-6.png)
 
-## Membuat Layout dan Navigasi
+## 3. Membuat Layout dan Navigasi
 
 1. Buat direktori src/components jika belum ada. 
 2. Buat file src/components/Layout.tsx 
@@ -71,3 +71,22 @@ Lakukan hal yang sama untuk halaman projects/page.tsx dan essays/page.tsx.
 
 ![alt text](image-16.png)
 ![alt text](image-18.png)
+
+## 4. Membuat Halaman Proyek dengan Grid Responsif 
+
+1. Buat folder di public/images. Kemudian tambahkan dua image, lalu rename dengan nama 
+project1.png dan project2.png 
+![alt text](image-20.png)
+
+2. Modifikasi file app/projects/page.tsx: 
+Tambahkan import next/image dan beberapa image yang telah ditambahkan sebelumnya 
+![alt text](image-21.png)
+Buat card project item sebagai berikut: 
+![alt text](image-22.png)
+
+Modifikasi komponen project sebagai berikut: 
+![alt text](image-23.png)
+
+3. Simpan file dan buka http://localhost:3000/projects di browser. Anda akan melihat daftar proyek 
+dalam grid yang responsif.
+![alt text](image-24.png)
